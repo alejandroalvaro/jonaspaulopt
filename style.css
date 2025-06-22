@@ -1,0 +1,71 @@
+/* Color Palette */
+:root {
+  --vermelho: #BA0800;
+  --vermelho-claro: #EC1C24;
+  --amarelo: #ECA102;
+  --preto: #0E0D08;
+  --bege: #EBD3A1;
+  --branco: #FFFFFF;
+  --cinza: #514C45;
+  --fonte-titulo: "erbaum", sans-serif;
+  --fonte-legenda: "new-science", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-legenda);
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 2.5rem;
+  color: var(--amarelo);
+  margin: 1rem 0 0.5rem;
+}
+
+h2 {
+  font-family: var(--fonte-titulo);
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem;
+  color: var(--branco);
+}
+
+.number {
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  color: var(--vermelho-claro);
+  margin-bottom: 1rem;
+}
+
+.slogan {
+  font-style: italic;
+  color: var(--bege);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.social a {
+  color: var(--amarelo);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
